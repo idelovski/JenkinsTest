@@ -2,7 +2,7 @@
 //  main.m
 //  JenkinsTest
 //
-//  Created by Jane Fonda on 02/03/2019.
+//  Created by Igor Delovski on 02/03/2019.
 //  Copyright © 2019 Delovski doo. All rights reserved.
 //
 

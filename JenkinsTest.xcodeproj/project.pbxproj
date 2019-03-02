@@ -64,6 +64,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB3A2E0C222AFAA30075DF46 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				EBC5C4AF222AF357007725AD /* Main.storyboard */,
+				EBC5C4B2222AF357007725AD /* Assets.xcassets */,
+				EBC5C4B4222AF357007725AD /* LaunchScreen.storyboard */,
+				EBC5C4B7222AF357007725AD /* Info.plist */,
+				EBC5C4B8222AF357007725AD /* main.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		EB3A2E0D222AFACA0075DF46 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EBC5C4A9222AF356007725AD /* AppDelegate.h */,
+				EBC5C4AA222AF357007725AD /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		EBC5C49D222AF356007725AD = {
 			isa = PBXGroup;
 			children = (
@@ -89,15 +110,10 @@
 		EBC5C4A8222AF356007725AD /* JenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
-				EBC5C4A9222AF356007725AD /* AppDelegate.h */,
-				EBC5C4AA222AF357007725AD /* AppDelegate.m */,
+				EB3A2E0D222AFACA0075DF46 /* Delegate */,
 				EBC5C4AC222AF357007725AD /* ViewController.h */,
 				EBC5C4AD222AF357007725AD /* ViewController.m */,
-				EBC5C4AF222AF357007725AD /* Main.storyboard */,
-				EBC5C4B2222AF357007725AD /* Assets.xcassets */,
-				EBC5C4B4222AF357007725AD /* LaunchScreen.storyboard */,
-				EBC5C4B7222AF357007725AD /* Info.plist */,
-				EBC5C4B8222AF357007725AD /* main.m */,
+				EB3A2E0C222AFAA30075DF46 /* Basic */,
 			);
 			path = JenkinsTest;
 			sourceTree = "<group>";
